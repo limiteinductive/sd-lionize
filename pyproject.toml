@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "laion_diffusion"
+version = "0.1.0"
+description = ""
+authors = ["Benjamin <benjamin@lagon.tech>"]
+readme = "README.md"
+packages = [{include = "sd_lionize"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
